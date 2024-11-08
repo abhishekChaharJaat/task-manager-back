@@ -83,7 +83,7 @@ router.post(
       if (!user) {
         return res
           .status(404)
-          .json({ success: false, error: "Plzz enter correct details" });
+          .json({ success: false, error: "Email Id or password is incorrect" });
       }
       // match user entered password with stored password.
       const passwordCompare = await bcrypt.compare(password, user.password);
