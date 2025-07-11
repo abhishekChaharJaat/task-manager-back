@@ -1,7 +1,7 @@
 const mongoose = require("mongoose");
 
 const mongoURI =
-  "mongodb+srv://abhishekchahar200:jaat2000@abhishekapi.xhhhctn.mongodb.net/?retryWrites=true&w=majority";
+  "mongodb+srv://abhishekchahar200:jaat2000@abhishekapi.xhhhctn.mongodb.net/taskmanager";
 
 const connectToMongo = () => {
   mongoose
